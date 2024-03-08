@@ -4,7 +4,7 @@
   "description": "Retrieval of normalized entities extracted from articles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
   "keywords": [
     "grounding",
@@ -14,5 +14,10 @@
     "preprint"
   ],
   "author": "jvwong",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
 }

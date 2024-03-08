@@ -1,23 +1,32 @@
 import { expect } from 'chai';
 
+import { bioC } from '../../src/processor/index.js';
+import pubtatorData from '../data/pubtator/index.js';
+
 describe('Processor: bioC', function(){
 
-  describe( 'Test', () => {
+  describe( 'Pubtator', function(){
 
-    // before( async () => {
-    // });
+    pubtatorData.forEach( bioCJson => {
+      let hints;
 
-    it('Should be true', () => {
-      expect( true ).to.be.true;
-    })
+      before( async () => {
+        hints = bioC( bioCJson );
+      });
 
-    // it('Should have correct top-level values', () => {
-    //   expect( pubmedInfo.count ).to.equal( 0 );
-    //   expect( pubmedInfo.searchHits ).to.be.empty;
-    //   expect( pubmedInfo.query_key ).to.not.be.a('null');
-    //   expect( pubmedInfo.webenv ).to.not.be.a('null');
-    // });
+      it('Should have the correct properties', function(){
+        const first = hints[0];
+        expect( first ).to.have.property('text');
+        expect( first ).to.have.property('type');
+        expect( first ).to.have.property('xref');
+        expect( first ).to.have.nested.property('xref.dbName');
+        expect( first ).to.have.nested.property('xref.dbPrefix');
+        expect( first ).to.have.nested.property('xref.id');
+        expect( first ).to.have.property('section');
+      });
 
-  }); //
+    }); // bioC files
+
+  }); // Pubtator
 
 }); // Processor: bioC

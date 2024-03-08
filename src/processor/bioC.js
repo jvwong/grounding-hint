@@ -1,5 +1,7 @@
 function main(){
-  console.log('main');
+  return [{
+    a: 1
+  }];
 }
 
 export default main;

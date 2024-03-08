@@ -1,3 +1,3 @@
-import * as bioC from './bioC.js';
+import bioC from './bioC.js';
 
 export { bioC };

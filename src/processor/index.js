@@ -1,3 +1,3 @@
-import bioC from './bioC.js';
+import pubtator from './pubtator.js';
 
-export { bioC };
+export { pubtator };

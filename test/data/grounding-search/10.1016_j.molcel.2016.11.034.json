@@ -7,6 +7,12 @@
       "xref_id": "5970",
       "namespace": "ncbi",
       "sentence": "A Constitutive Intrinsic Inflammatory Signaling Circuit Composed of miR-196b, Meis2, PPP3CC, and p65 Drives Prostate Cancer Castration Resistance"
+     },
+     {
+      "text": "NF-kappaB",
+      "xref_id": "NFkappaB",
+      "namespace": "fplx",
+      "sentence": "Here, we show that an intrinsic constitutively activated feedforward signaling circuit composed of IκBα/NF-κB(p65), miR-196b-3p, Meis2, and PPP3CC is formed during the emergence of castration-resistant prostate cancer (CRPC)."
      }
   ],
   "hints": [

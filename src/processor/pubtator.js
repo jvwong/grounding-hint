@@ -32,11 +32,6 @@ const annotationTypeSet = new Set( Object.values( ANNOTATION_TYPES ) );
 function fromBioCDocument(bioCDocument) {
   let hints = [];
 
-  const byXref = annotation => {
-    const { infons: { type, identifier }} = annotation;
-    return `${type}_${identifier}`;
-  }
-
   const byPassageType = passage => {
     const section = _.get(passage, 'infons.type');
     return passageTypeSet.has(section);
@@ -98,7 +93,8 @@ function fromBioCDocument(bioCDocument) {
   for( const passage of passages ){
     let { annotations } = passage;
     const section = passage.infons.type;
-    annotations = _.uniqBy( annotations, byXref );
+    //unique by text
+    annotations = _.uniqBy( annotations, 'text' );
     annotations = _.filter( annotations, byAnnotation );
     annotations.forEach( a => {
       const hint = toHint( a );

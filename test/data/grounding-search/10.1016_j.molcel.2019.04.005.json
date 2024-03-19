@@ -1,0 +1,87 @@
+{
+  "id": "https://dx.doi.org/10.1016/j.molcel.2019.04.005",
+  "entities": [],
+  "comment": "Synonym: PD-1 (chemical)",
+  "hints": [
+    {
+      "text": "PD-L1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "29126"
+      },
+      "section": "title"
+    },
+    {
+      "text": "PD-L1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "29126"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "programmed cell death protein 1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "5133"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "cancer",
+      "type": "disease",
+      "xref": {
+        "dbName": "MeSH",
+        "dbPrefix": "mesh",
+        "id": "MESH:D009369"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "NBS1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "4683"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "BRCA1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "672"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "H1A",
+      "type": "chemical",
+      "xref": {
+        "dbName": "ChEBI",
+        "dbPrefix": "CHEBI",
+        "id": "-"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "CMTM6",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "54918"
+      },
+      "section": "abstract"
+    }
+  ]
+}

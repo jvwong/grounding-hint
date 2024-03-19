@@ -1,0 +1,90 @@
+{
+  "id": "https://dx.doi.org/10.1016/j.molcel.2019.03.023",
+  "entities": [
+    {
+      "text": "REC114",
+      "xref_id": "73673",
+      "namespace": "ncbi",
+      "sentence": "REC114 Partner ANKRD31 Controls Number, Timing, and Location of Meiotic DNA Breaks"
+    },
+    {
+      "text": "ANKRD31",
+      "xref_id": "625662",
+      "namespace": "ncbi",
+      "sentence": "REC114 Partner ANKRD31 Controls Number, Timing, and Location of Meiotic DNA Breaks"
+    }
+  ],
+  "comment": "M. Musculus orthologues: ANKRD31, REC114",
+  "hints": [
+    {
+      "text": "ANKRD31",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "73673"
+      },
+      "section": "title"
+    },
+    {
+      "text": "ANKRD31",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "625662"
+      },
+      "section": "title"
+    },
+    {
+      "text": "mouse",
+      "type": "organism",
+      "xref": {
+        "dbName": "NCBI Taxonomy",
+        "dbPrefix": "taxonomy",
+        "id": "10090"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "ANKRD31",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "625662"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "sterility",
+      "type": "disease",
+      "xref": {
+        "dbName": "MeSH",
+        "dbPrefix": "mesh",
+        "id": "MESH:D007246"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "REC114",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "73673"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "PAR",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "69597"
+      },
+      "section": "abstract"
+    }
+  ]
+}

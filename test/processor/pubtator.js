@@ -33,11 +33,10 @@ describe('Processor: Pubtator', function(){
       });
 
       it('Should be unique to each section', function(){
-        const byXref = ({ xref }) => `${xref.dbPrefix}_${xref.id}`;
         const inTitle = _.filter(hints, ['section', 'title']);
-        const uniqInTitle = _.uniqBy( inTitle, byXref );
+        const uniqInTitle = _.uniqBy( inTitle, 'text' );
         const inAbstract = _.filter(hints, ['section', 'abstract']);
-        const uniqInAbstract = _.uniqBy( inAbstract, byXref );
+        const uniqInAbstract = _.uniqBy( inAbstract, 'text' );
         expect( inTitle.length ).to.equal( uniqInTitle.length );
         expect( inAbstract.length ).to.equal( uniqInAbstract.length );
       });

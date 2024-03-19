@@ -1,10 +1,27 @@
 {
   "id": "https://dx.doi.org/10.1016/j.molcel.2019.04.005",
-  "entities": [],
-  "comment": "Synonym: PD-1 (chemical)",
+  "entities": [
+    {
+      "text": "PD-1",
+      "xref_id": "5133",
+      "namespace": "ncbi",
+      "sentence": "Programmed death ligand 1 (PD-L1, also called B7-H1) is an immune checkpoint protein that inhibits immune function through its binding of the programmed cell death protein 1 (PD-1) receptor."
+    }
+  ],
+  "comment": "Synonym: PD-1",
   "hints": [
     {
       "text": "PD-L1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "29126"
+      },
+      "section": "title"
+    },
+    {
+      "text": "B7-H1",
       "type": "ggp",
       "xref": {
         "dbName": "NCBI Gene",
@@ -24,7 +41,27 @@
       "section": "abstract"
     },
     {
+      "text": "B7-H1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "29126"
+      },
+      "section": "abstract"
+    },
+    {
       "text": "programmed cell death protein 1",
+      "type": "ggp",
+      "xref": {
+        "dbName": "NCBI Gene",
+        "dbPrefix": "NCBIGene",
+        "id": "5133"
+      },
+      "section": "abstract"
+    },
+    {
+      "text": "PD-1",
       "type": "ggp",
       "xref": {
         "dbName": "NCBI Gene",

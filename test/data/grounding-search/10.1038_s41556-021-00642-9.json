@@ -2,10 +2,16 @@
   "id": "https://dx.doi.org/10.1038/s41556-021-00642-9",
   "entities": [
     {
-      "text": "",
-      "xref_id": "",
-      "namespace": "",
-      "sentence": ""
+      "text": "AIDA",
+      "xref_id": "108909",
+      "namespace": "ncbi",
+      "sentence": "AIDA directly connects sympathetic innervation to adaptive thermogenesis by UCP1"
+    },
+    {
+      "text": "UCP1",
+      "xref_id": "22227",
+      "namespace": "ncbi",
+      "sentence": "AIDA directly connects sympathetic innervation to adaptive thermogenesis by UCP1"
     }
   ],
   "comment": "M. musculus orthologue: Aida, Ucp1",
@@ -67,16 +73,6 @@
         "dbName": "MeSH",
         "dbPrefix": "mesh",
         "id": "MESH:D007035"
-      },
-      "section": "abstract"
-    },
-    {
-      "text": "Aida",
-      "type": "ggp",
-      "xref": {
-        "dbName": "NCBI Gene",
-        "dbPrefix": "NCBIGene",
-        "id": "108909"
       },
       "section": "abstract"
     },

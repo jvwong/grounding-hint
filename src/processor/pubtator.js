@@ -32,6 +32,13 @@ const annotationTypeSet = new Set( Object.values( ANNOTATION_TYPES ) );
 function fromBioCDocument(bioCDocument) {
   let hints = [];
 
+  const byText = annotation => {
+    // Could do some processing here (dashes etc)
+    const sanitized = text => text.toLowerCase()
+    const { text } = annotation;
+    return sanitized( text );
+  };
+
   const byPassageType = passage => {
     const section = _.get(passage, 'infons.type');
     return passageTypeSet.has(section);
@@ -94,7 +101,7 @@ function fromBioCDocument(bioCDocument) {
     let { annotations } = passage;
     const section = passage.infons.type;
     //unique by text
-    annotations = _.uniqBy( annotations, 'text' );
+    annotations = _.uniqBy( annotations, byText );
     annotations = _.filter( annotations, byAnnotation );
     annotations.forEach( a => {
       const hint = toHint( a );
